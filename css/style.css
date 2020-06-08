@@ -137,3 +137,15 @@ img {
   opacity: 0.5;
   background-color: var(--basic-black);
 }
+
+/* Appointment */
+
+.appointment-item input {
+  font: inherit;
+  background-color: transparent;
+  border: 2px solid var(--basic-black);
+}
+
+.appointment-item input:focus {
+  border-color: var(--special);
+}
