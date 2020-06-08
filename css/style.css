@@ -99,3 +99,16 @@ img {
   font-size: 30px;
   line-height: 42px;
 }
+
+/* News */
+
+.news-list {
+  list-style: none;
+}
+
+/* Gallery */
+
+.gallery-content {
+  background-color: var(--basic-dark);
+  border: 7px solid var(--basic-white);
+}
