@@ -171,8 +171,6 @@ img {
   display: flex;
   justify-content: space-between;
   margin-bottom: 35px;
-  outline: 5px solid rgba(255, 0, 0, 0.5);
-  outline-offset: -5px;
   color: var(--basic-black);
   background-color: var(--basic-extra-light);
   background-image: url("../img/pattern-light.jpg");
@@ -256,8 +254,6 @@ img {
 
 .contacts {
   width: 380px;
-  outline: 5px solid rgba(0, 255, 255, 0.5);
-  outline-offset: -5px;
 }
 
 .contacts p {
@@ -269,8 +265,6 @@ img {
 
 .appointment {
   width: 300px;
-  outline: 5px solid rgba(0, 255, 0, 0.5);
-  outline-offset: -5px;
 }
 
 .appointment-info {
@@ -452,11 +446,27 @@ img {
 /* Main footer */
 
 .main-footer {
+  padding: 60px 0;
+  margin-top: 65px;
   color: var(--basic-white);
   background-color: var(--basic-extra-dark);
   background-image: url("../img/pattern-dark.jpg");
   background-position: 0 0;
   background-repeat: repeat;
+}
+
+.main-footer .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-contacts {
+  margin: 0;
+  width: 320px;
+}
+
+.footer-contacts p {
+  margin: 0;
 }
 
 .footer-contacts a {
@@ -470,10 +480,15 @@ img {
 }
 
 .footer-social {
+  width: 145px;
+  justify-self: center;
   text-align: center;
 }
 
 .footer-social ul {
+  width: 141px;
+  margin: 0 auto;
+  padding: 0;
   list-style: none;
 }
 
@@ -490,6 +505,13 @@ img {
 .social-button:hover,
 .social-button:focus {
   background-color: var(--basic-white);
+}
+
+.footer-copyright {
+  width: 150px;
+  margin: 0;
+  justify-self: end;
+  text-align: center;
 }
 
 .footer-copyright .button:hover,
