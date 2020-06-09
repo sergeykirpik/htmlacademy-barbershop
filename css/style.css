@@ -532,11 +532,23 @@ img {
 }
 
 .modal-login h2 {
+  margin: 0;
+  margin-bottom: 20px;
   font-size: 30px;
   line-height: 42px;
 }
 
+.modal-description {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
 /* Login form */
+
+.login-form p {
+  margin: 0;
+  margin-bottom: 10px;
+}
 
 .login-form input[type="email"],
 .login-form input[type="password"] {
@@ -549,6 +561,10 @@ img {
 
 .login-form input:focus {
   border-color: var(--special);
+}
+
+.login-form .login-help {
+  margin: 15px 0;
 }
 
 .login-icon-user {
