@@ -141,8 +141,6 @@ img {
 
 .features {
   margin-bottom: 80px;
-  outline: 5px solid rgba(255, 0, 0, 0.3);
-  outline-offset: -5px;
 }
 
 .features-list {
@@ -156,8 +154,6 @@ img {
 
 .features-item {
   text-align: center;
-  outline: 5px solid rgba(0, 255, 255, 0.3);
-  outline-offset: -5px;
 }
 
 .features-item h3 {
@@ -172,6 +168,11 @@ img {
 /* Index columns */
 
 .index-columns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+  outline: 5px solid rgba(255, 0, 0, 0.5);
+  outline-offset: -5px;
   color: var(--basic-black);
   background-color: var(--basic-extra-light);
   background-image: url("../img/pattern-light.jpg");
@@ -180,26 +181,60 @@ img {
 }
 
 .index-columns h2 {
+  margin: 0;
+  margin-bottom: 25px;
   font-size: 30px;
   line-height: 42px;
 }
 
 /* News */
 
+.news {
+  width: 380px;
+  outline: 5px solid rgba(0, 255, 255, 0.5);
+  outline-offset: -5px;
+
+}
+
 .news-list {
   list-style: none;
 }
 
+.news-item {
+  margin-bottom: 25px;
+}
+
+.news-item p {
+  margin: 0;
+}
+
 /* Gallery */
+
+.gallery {
+  width: 380px;
+  outline: 5px solid rgba(0, 255, 0, 0.5);
+  outline-offset: -5px;
+}
+
+.gallery-container {
+  height: 260px;
+}
 
 .gallery-content {
   background-color: var(--basic-dark);
   border: 7px solid var(--basic-white);
 }
 
+.gallery-content img {
+  width: 286px;
+  height: 164px;
+}
+
 /* Button */
 
 .button {
+  display: inline-block;
+  margin-right: 16px;
   font: inherit;
   text-align: center;
   color: var(--basic-white);
