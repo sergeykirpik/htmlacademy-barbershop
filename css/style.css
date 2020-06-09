@@ -149,3 +149,52 @@ img {
 .appointment-item input:focus {
   border-color: var(--special);
 }
+
+/* Main footer */
+
+.main-footer {
+  color: var(--basic-white);
+  background-color: var(--basic-extra-dark);
+  background-image: url("../img/pattern-dark.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.footer-contacts a {
+  color: var(--basic-white);
+  text-decoration: underline;
+}
+
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+  text-decoration: none;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.footer-social h2 {
+  font-size: 14px;
+}
+
+/* Social button */
+
+.social-button {
+  color: inherit;
+}
+
+.social-button:hover,
+.social-button:focus {
+  background-color: var(--basic-white);
+}
+
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
