@@ -295,6 +295,17 @@ img {
   background-color: var(--basic-neutral);
 }
 
+/* Product info */
+
+.product-info h3 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.product-info ul {
+  list-style: none;
+}
+
 /* Main footer */
 
 .main-footer {
