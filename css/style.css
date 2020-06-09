@@ -52,6 +52,13 @@ img {
 
 /* Main header */
 
+.main-header {
+  margin-bottom: 70px;
+
+  outline: 5px solid rgba(0, 255, 0, 0.3);
+  outline-offset: -5px;
+}
+
 .inner-page .main-header {
   background-color: var(--basic-black);
 }
@@ -59,18 +66,63 @@ img {
 /* Main navigation */
 
 .main-navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-size: 16px;
   line-height: 20px;
   color: var(--basic-white);
   background-color: transparent;
 }
 
-.navigation-wrapper {
+.main-navigation-wrapper {
+  width: 100%;
+  margin-bottom: 60px;
   background-color: var(--basic-black);
 }
 
+/* Logo */
+
+.main-header-logo {
+  order: 2;
+  width: 368px;
+  height: 153px;
+  outline: 5px solid rgba(255, 0, 0, 0.3);
+  outline-offset: -5px;
+}
+
+/* Container */
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-navigation-wrapper .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Site navigation */
+
 .site-navigation {
+  width: 620px;
+  margin: 0;
+  padding: 0;
+  min-height: 70px;
   list-style: none;
+
+  outline: 5px solid rgba(0, 255, 255, 0.3);
+  outline-offset: -5px;
+}
+
+/* User navigation */
+
+.user-navigation {
+  max-width: 140px;
+  outline: 5px solid rgba(255, 0, 255, 0.3);
+  outline-offset: -5px;
 }
 
 .site-navigation-current a:not([href]) {
@@ -87,6 +139,12 @@ img {
 .user-navigation a:hover,
 .user-navigation a:focus {
   background-color: var(--basic-extra-dark);
+}
+
+/* Login link */
+
+.user-navigation .login-link {
+  padding-left: 50px;
 }
 
 /* Features */
